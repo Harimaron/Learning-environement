@@ -116,10 +116,12 @@ footer a:hover{
 }
 
 footer a.by{
-    float:left;
+    float:right;
 
 }
 
 footer a.up{
     float:right;
 }
+
+
