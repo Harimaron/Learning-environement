@@ -1,0 +1,17 @@
+div.Error {
+    font: bold 72px Arial, serif; 
+    background-color: whitesmoke;
+}
+
+Body{
+    background-color: whitesmoke
+}
+
+div.Sorry {
+    margin-left: 5px;
+    font: 20px Arial, sans-serif;
+}
+
+div.Arrow:hover {
+    background: blue;
+}
