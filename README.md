@@ -6,6 +6,6 @@
 * [6. Mise en page d'une vCard.](https://harimaron.github.io/Learning-environement/6-exercice-vcard-html/vCard/)
 * [7. Exercice Star Wars.](https://harimaron.github.io/Learning-environement/7-exercice-star-wars/Star Wars Crawl)
 * [8. Reproduction d'un à propos.](https://harimaron.github.io/Learning-environement/8-exercice-summary/starting-web-developpment)
-[## L'arrivée des bots dans nos T'chats.](https://harimaron.github.io/Learning-environement/La-Veille/Chatbot/Viewer.html)
+* [Extra : La Veille : L'arrivée des bots dans nos T'chats.](https://harimaron.github.io/Learning-environement/La-Veille/Chatbot/Viewer.html)
 
  
