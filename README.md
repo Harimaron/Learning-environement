@@ -5,7 +5,7 @@
 * [5. Réalisation d'un CV.](https://harimaron.github.io/Learning-environement/5-exercice-creer-un-cv/)
 * [6. Mise en page d'une vCard.](https://harimaron.github.io/Learning-environement/6-exercice-vcard-html/vCard/)
 * [7. Exercice Star Wars.](https://harimaron.github.io/Learning-environement/7-exercice-star-wars/Star Wars Crawl)
-* [8. Reproduction d'un à propos.](https://harimaron.github.io/Learning-environement/8-exercice-summary)
+* [8. Reproduction d'un à propos.](https://harimaron.github.io/Learning-environement/8-exercice-summary/starting-web-developpment)
 
 
  
