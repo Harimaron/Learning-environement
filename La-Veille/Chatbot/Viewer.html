@@ -98,6 +98,11 @@
       }
       imageElement.setAttribute('src', images[image]);
     }
+
+    document.addEventListener('keydown', function (e) {
+      if (e.keyCode === 37) back();
+      else if (e.keyCode === 39) next();
+    });
   </script>
 </body>
 
