@@ -3,12 +3,11 @@ html, body {
     width: 100%;
     margin: 0;
     font-family: "Open Sans", sans-serif;
+    background-color: #EEEEEE;
 }
 
-.wrapper {
-    overflow-y: auto;    
+.wrapper {   
     width: 100%;
-    background-color: #EEEEEE;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,42 +15,35 @@ html, body {
     
 }
 
-.first-cube {
-    height: 500px;
-    width: 850px;
+
+.block {
+    width: 850px; 
     background-color: white;
-    display: flex;
-    flex-direction: column;
+    margin-bottom: 50px;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
 
 }
 
-
-.second-cube {
-    margin-top: 50px;
-    height: 250px;
-    width: 850px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.1);
-
+.block:first-child {
+    margin-top:50px;
 }
 
-.third-cube {
-    margin-top: 50px;
-    height: 1000px;
-    width: 850px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.1);
 
+.profile-picture {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border:5px solid #EEEEEE;
+    margin-bottom: 0px;
 }
 
-.profile-picture, .profile-title, .profile-subtitle {
-    display: flex;
-    justify-content: center;
+.profile-picture img {
+    width: 100%;
+    height: auto;
 }
 
 p {
@@ -67,7 +59,7 @@ p {
 
 .profile-subtitle {
     text-align: justify;
-    margin: -35px 0 0;
+    margin: 0px;
     color:#7E7E7E;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -75,36 +67,28 @@ p {
 .movies-title {
     display: flex;
     justify-content: center;
-    text-align: justify;
-    margin: 0;
     color:#7E7E7E;
-    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-bottom: 50px;
 
 }
 
 .profile-button {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-
+    background-color: #DA5252;
+    color: white;
+    padding: 10px;
+    border:none;
+    border-radius:3px;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 300;
+    font-size: 1.2em;
     
 }
 
-.profile-button-wrapper {
-    border: none;
-    padding: 0;
-    font-family: "Open Sans", sans-serif;
-    background: 0 0;
-    background-color: #DA5252;
-    height: 50px;
-    width: 100px;
-    color: #FFFFFF;
-    cursor: pointer; 
-
-}
 
 .button {
-    font-size: 20px;
+    font-size: 1.3em;
     display: flex;
     flex-direction: column;
     height: 150px;
@@ -113,23 +97,42 @@ p {
     align-items: center;
     color: #BBB9B9;
     cursor: pointer;
+    text-decoration: none;
 }
 
-.sub-social {
-    width: 100%;
-    height: auto;
-    margin: auto;
+.movies .image {
+margin-right: 40px;
+}
+
+
+.movies {
+    color: #979797;
+    display: flex;
+    padding: 0 20px; 
+    margin: 50px 0;   
+}
+
+.profile-text {
+    margin:20px 0 5px; 
+}
+
+.column {
+    display:flex;
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
     display: flex;
     justify-content: center;
 }
 
-.movies {
-    display: flex;
-    flex: 2;
-    flex-direction: column;
-    align-items: flex-start;
-    flex: 1.25;
-    color: #979797;
-    text-align: justify;
-    margin: 0px 50x 0px;
+.movies .description {
+    font-size:1.2em;
+}
+
+.movies .description .title {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
