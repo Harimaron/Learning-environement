@@ -1,52 +1,65 @@
 html, body {
+    /* Je définis la taille globale de mon ouebsite. */
     height: 100%;
     width: 100%;
     margin: 0;
+    /* J'ajoute ma police globale. */
     font-family: "Open Sans", sans-serif;
+    /* J'ajoute la couleur de mon background principal. */
     background-color: #EEEEEE;
 }
 
 .wrapper {   
+    /* J'administre la taille de la couverture de mon body ainsi que ses propriétés. */
     width: 100%;
+    /* J'active le flex. */
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
 
 
 .block {
+    /* Je donne des propriétés à mes blocs blancs. */
     width: 850px; 
     background-color: white;
+    /* Je réalise l'espace vide qui se trouve sous mes blocs et au-dessus de ceux-ci. */
     margin-bottom: 50px;
+    /* Une belle petite ombre à tous. */
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.1);
     align-items: center;
+    /* Un padding pour centrer les éléments dans mes blocs. */
     padding: 20px;
     box-sizing: border-box;
-
 }
 
 .block:first-child {
-    margin-top:50px;
+    /* J'impose un margin à mon premier bloc. */
+    margin-top: 50px;
 }
 
 
 .profile-picture {
+    /* J'administre une taille à mon image. */
     height: 150px;
     width: 150px;
+    /* J'utilise le border-radius pour rendre mon image ronde. */
     border-radius: 50%;
+    /* J'empêche mon image de déborder parce que ma classe est carrée à la base. */
     overflow: hidden;
+    /* J'ajoute mes petits bords. */
     border:5px solid #EEEEEE;
-    margin-bottom: 0px;
 }
 
 .profile-picture img {
+    /* Je change la taille de l'image seule. */
     width: 100%;
     height: auto;
 }
 
 p {
+    /* J'administre une couleur à mon paragraphe. */
     color: #979797;
     text-align: justify;
     margin: 0px 100px 0px;
@@ -54,10 +67,12 @@ p {
 
 
 .profile-title {
+    /* J'administre une couleur à mon titre. */
     color:#DA5252;
 }
 
 .profile-subtitle {
+    /* J'introduis les propriétés de mon deuxième titre. */
     text-align: justify;
     margin: 0px;
     color:#7E7E7E;
@@ -65,6 +80,7 @@ p {
 }
 
 .movies-title {
+    /* Je positionne le titre de mes films. */
     display: flex;
     justify-content: center;
     color:#7E7E7E;
@@ -74,38 +90,54 @@ p {
 }
 
 .profile-button {
+    /* Je change la couleur mon bouton rouge. */
     background-color: #DA5252;
+    /* Je change la couleur de son texte. */
     color: white;
+    /* Je le positionne. */
     padding: 10px;
+    /* Je lui retire les bords du bouton de base. */
     border:none;
+    /* Je lui administre son bord arrondi. */
     border-radius:3px;
+    /* Je fais en sorte que le curseur change en passant sur le bouton. */
     cursor: pointer;
+    /* Je fais hériter mon texte de la police de son parent. */
     font-family: inherit;
+    /* Je choisis son épaisseur. */
     font-weight: 300;
+    /* Je choisis sa taille. */
     font-size: 1.2em;
     
 }
 
 
 .button {
+    /* Je change les propriétés de mes boutons de réseaux sociaux. */
+    /* D'abord la taille du texte. */
     font-size: 1.3em;
+    /* J'active le flex pour pouvoir introduire les columns. */
     display: flex;
     flex-direction: column;
+    /* J'impose une taille à mes boutons. */
     height: 150px;
     width: 150px;
     justify-content: center;
     align-items: center;
     color: #BBB9B9;
     cursor: pointer;
+    /* Je retire les propriétés de base des boutons. */
     text-decoration: none;
 }
 
 .movies .image {
+    /* Je positionne mes différentes images. */
 margin-right: 40px;
 }
 
 
 .movies {
+    /* J'ajoute des propriétés globales au texte de mes films. */
     color: #979797;
     display: flex;
     padding: 0 20px; 
@@ -113,25 +145,30 @@ margin-right: 40px;
 }
 
 .profile-text {
+    /* Je positionne le texte de présentation. */
     margin:20px 0 5px; 
 }
 
 .column {
+    /* Je précise les propriétés de mon flex. */
     display:flex;
     flex-direction: column;
 }
 
 .row {
+    /* Je précise les propriétés de mon flex. */
     flex-direction: row;
     display: flex;
     justify-content: center;
 }
 
 .movies .description {
+    /* J'administre une taille au texte de mes descriptions. */
     font-size:1.2em;
 }
 
 .movies .description .title {
+    /* J'administre différentes propriété au titre de mes descriptions. */
     text-align: center;
     font-weight: 600;
     margin-bottom: 10px;

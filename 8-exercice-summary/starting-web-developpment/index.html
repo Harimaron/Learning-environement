@@ -1,37 +1,64 @@
 <html>
 
 <head>
+    <!-- Je commence par la commande <meta> qui permettra à mon site d'être lisible sur un maximum de système. -->
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <!-- Je lie ensuite la source qui contient mes icônes. -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Vient ma police et ses différentes propriétés. -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800" rel="stylesheet">
+    <!-- Puis mon css. -->
     <link rel="stylesheet" href="style.css">
+    <!-- J'utilise la commande <title> pour nommer ma page oueb. -->
     <title>Tim Berners-Lee</title>
 </head>
 
 <body>
+    <!-- J'englobe mon tout avec ma classe "wrapper" pour pouvoir lui appliquer un style par la suite. -->
     <div class="wrapper">
 
-        <div class="block column">
-            <div class="profile-picture"><img src="./images/one.jpeg"></div>
-            <h1 class="profile-title">Tim Berners-Lee</h1>
-            <h2 class="profile-subtitle">Inventor of HTML</h2>
-            <p class="profile-text">
-                Tim Berners-Lee is the <b>inventor</b> of the Web. In 1989, Tim was working in a computing services section
-                of CERN when he came up with the concept; at the time he had no idea that it would be implemented on such
-                an <b>enormous scale.</b>
-            </p>
+        <!-- Je commence par créer une classe "block column" pour administer les propriétés de column à mon bloc. -->
 
-            <button class="profile-button"><b>See for yourself</b></button>
+        <div class="block column">
+            <!-- Une classe pour placer mon image. -->
+            <div class="profile-picture">
+                <img src="./images/one.jpeg">
+            </div>
+            <!-- Une classe pour placer mon titre principal. -->
+            <h1 class="profile-title">Tim Berners-Lee</h1>
+            <!-- Une classe pour placer mon titre secondaire. -->
+            <h2 class="profile-subtitle">Inventor of HTML</h2>
+            <!-- Ensuite une classe pour y placer mon texte principal. -->
+            <p class="profile-text">
+                Tim Berners-Lee is the
+                <b>inventor</b> of the Web. In 1989, Tim was working in a computing services section of CERN when he came up
+                with the concept; at the time he had no idea that it would be implemented on such an
+                <b>enormous scale.</b>
+            </p>
+            <!-- Une classe pour mon gros bouton rouge. -->
+            <button class="profile-button">
+                <b>See for yourself</b>
+            </button>
         </div>
+        <!-- Je continue par créer une classe "block row" pour administer les propriétés de row à mon bloc. -->
         <div class="block row">
-            <a class="button" href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i>Facebook</a>
-            <a class="button" href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin"></i>Linkedin</a>
-            <a class="button" href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i>Twitter</a>
+            <!-- J'initie mes boutons de réseaux sociaux. -->
+            <a class="button" href="https://www.facebook.com" target="_blank">
+                <i class="fa fa-facebook"></i>Facebook</a>
+            <a class="button" href="https://www.linkedin.com" target="_blank">
+                <i class="fa fa-linkedin"></i>Linkedin</a>
+            <a class="button" href="https://www.twitter.com" target="_blank">
+                <i class="fa fa-twitter"></i>Twitter</a>
         </div>
+        <!-- Je pose ma classe bloc. -->
         <div class="block">
+            <!-- Je continue par ajouter la classe du titre des différents films. -->
             <h2 class="movies-title">His favorite movies</h2>
+            <!-- Puis par ajouter une classe pour chaque film ainsi que pour chaque descriptions de film -->
             <div class="movies">
-                <div class="image"><img src="./images/two.jpeg"></div>
+                <div class="image">
+                    <img src="./images/two.jpeg">
+                </div>
                 <div class="description">
                     <div class="title">2001 - Space Odyssey</div>
                     <div class="text"> Humanity finds a mysterious, obviously artificial, object buried beneath the Lunar surface and with,
@@ -39,7 +66,9 @@
                 </div>
             </div>
             <div class="movies">
-                <div class="image"><img src="./images/three.jpeg"></div>
+                <div class="image">
+                    <img src="./images/three.jpeg">
+                </div>
                 <div class="description">
                     <div class="title">Monsieur Hulot</div>
                     <div class="text"> Monsieur Hulot comes to a beachside hotel for a vacantion, where he accidentally (but good-naturedly)
@@ -47,7 +76,9 @@
                 </div>
             </div>
             <div class="movies">
-                <div class="image"><img src="./images/four.jpeg"></div>
+                <div class="image">
+                    <img src="./images/four.jpeg">
+                </div>
                 <div class="description">
                     <div class="title">Alien</div>
                     <div class="text"> The commercial vessel Nostromo receives a distress call from an unexplored planet. After searching for
