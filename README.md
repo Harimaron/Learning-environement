@@ -11,6 +11,7 @@
 
 ## JAVASCRIPT
  * 01. Variables :
+	A. Diseur de bonne aventure :
 ```js
 var enfants;
 var femme;
