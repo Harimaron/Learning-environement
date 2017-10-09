@@ -10,4 +10,17 @@
 * [Extra : La Veille : L'arrivée des bots dans nos T'chats.](https://harimaron.github.io/Learning-environement/La-Veille/Chatbot/Viewer.html)
 
 ## JAVASCRIPT
- 
+ * 01. Variables :
+```js
+var enfants;
+var femme;
+var pays;
+var métier;
+var enfants = 2;
+var métier = "Web Developer";
+var pays = "Japan";
+var femme = "Megumin";
+
+var result = "You'll be " + métier + " and you will leave in " + pays + ", and married to "+ femme +" with " + enfants + " childs.";
+console.log(result);
+```
