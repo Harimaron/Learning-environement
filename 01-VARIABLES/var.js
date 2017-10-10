@@ -1,21 +1,3 @@
-var currentyear = 2017;
-var yearofbirth = 1995;
-var age = currentyear - yearofbirth;
-console.log(age);
-document.getElementById('year').innerHTML = age;
-
-
-var result = (1 + 2) * 3 + 4 / 2;
-console.log(result);
-
-// étape 1 : 3 * 3 + 4 / 2
-// étape 2 : 9 + 4 / 2
-// étape 3 : 9 + 2
-// étape 4 : 11
-
-document.getElementById('priority').innerHTML = result;
-
-
 var enfants;
 var femme;
 var pays;
@@ -28,8 +10,10 @@ var femme = "Megumin";
 var result = ("You'll be " + métier + " and you will live in " + pays + ", and married to "+ femme +" with " + enfants + " childs.");
 console.log(result);
 
-document.getElementById('adventure').innerHTML = result;
-
+var currentyear = 2017;
+var yearofbirth = 1995;
+var age = currentyear - yearofbirth;
+console.log(age);
 
 var age = 22;
 var agemax = 100;
@@ -38,4 +22,13 @@ var dishbyday = 10;
 var year = 365;
 var dishleft = (agemax - age) * (dishbyday * year);
 console.log("Il vous reste " + dishleft + " de " + dish + " avant d'atteindre l'âge de " + agemax + " ans.");
-document.getElementById('oldsoon').innerHTML = dishleft;
+
+var result = (1 + 2) * 3 + 4 / 2;
+console.log(result);
+
+// étape 1 : 3 * 3 + 4 / 2
+// étape 2 : 9 + 4 / 2
+// étape 3 : 9 + 2
+// étape 4 : 11
+
+
