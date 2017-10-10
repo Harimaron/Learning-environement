@@ -1,7 +1,3 @@
-var enfants;
-var femme;
-var pays;
-var métier;
 var enfants = 2;
 var métier = "Web Developer";
 var pays = "Japan";
