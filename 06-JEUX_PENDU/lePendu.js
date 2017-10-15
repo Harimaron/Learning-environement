@@ -16,10 +16,3 @@ function guessLetter() {
   guessLetter();
 
   
-/* Déclarez des variables. */
-
-var min = Math.min(7, 5, -12, 6, 32, 18, 14, -2);
-var max = Math.max(-3, 9, 21, 36, 27, 54, 17, 35);
-var sum = min + max;
-
-alert(min + ' ' + max + ' ' + sum);
